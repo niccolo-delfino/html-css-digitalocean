@@ -76,6 +76,12 @@ ul{
 .mt_20{
   margin-top: 20px;
 }
+.mt_50{
+  margin-top: 50px;
+}
+.mb_50{
+  margin-bottom: 50px;
+}
 .mr_10{
   margin-right: 10px;
 }
@@ -102,9 +108,13 @@ ul{
 .w50{
   width: 50%;
   margin: 0 auto;
+  padding: 40px 0;
   background-color: white;
 }
 
+.ms_bold{
+  font-weight: bold;
+}
 
 /* HEADER */
 header .ms_navbar{
@@ -312,7 +322,7 @@ section.loghi a{
   font-size: 15px;
   color: #031C4E;
 }
-.designed .row i{
+.designed .row i, .development i{
   color: #006AFF;
 }
 
@@ -347,11 +357,17 @@ section.loghi a{
 }
 
 /* 6 SEZIONE */
+.development{
+  background-color: #F3F5F9;
+}
+
 .development img{
   width: 60%;
 }
 
-
+.development h4{
+  color: #031C4E;
+}
 
 
 
