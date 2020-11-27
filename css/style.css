@@ -81,7 +81,12 @@ ul{
 .mt_20{
   margin-top: 20px;
 }
-
+.mr_10{
+  margin-right: 10px;
+}
+.ml_10{
+  margin-left: 10px;
+}
 .pt_20{
   padding-top: 20px;
 }
@@ -312,6 +317,7 @@ section.loghi a{
 
 /* 5 SEZIONE */
 .service{
+  padding-bottom: 40px;
   background-image: linear-gradient(#0047C5, #001E9A);
 }
 
@@ -326,6 +332,10 @@ section.loghi a{
   padding: 15px  5px;
   border-bottom: 1px solid white;
   color: grey;
+}
+
+.service .states.last{
+  border-bottom: 0;
 }
 
 .service .states div:first-child{
