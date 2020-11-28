@@ -79,6 +79,12 @@ ul{
 .mt_50{
   margin-top: 50px;
 }
+.mb_20{
+  margin-bottom: 20px;
+}
+.mb_30{
+  margin-bottom: 30px;
+}
 .mb_50{
   margin-bottom: 50px;
 }
@@ -327,12 +333,12 @@ section.loghi a{
 }
 
 /* 5 SEZIONE */
-.service{
+.service, .started{
   padding-bottom: 40px;
   background-image: linear-gradient(#0047C5, #001E9A);
 }
 
-.service h2{
+.service h2, .started h2{
   font-size: 30px;
   font-weight: bold;
   padding-top: 50px;
