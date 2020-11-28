@@ -341,6 +341,11 @@ section.loghi a{
   color: #006AFF;
 }
 
+.designed .row i:first-child, .development i:first-child{
+  background-color: #006AFF;
+  border-radius: 50%;
+}
+
 /* 5 SEZIONE */
 .service, .started{
   padding-bottom: 40px;
@@ -437,11 +442,24 @@ footer ul{
   background-color: #006AFF;
   border-radius: 15px;
   display: inline-block;
+  position: relative;
 }
 
 .help_shark img{
   width: 100%;
   padding: 10px 0;
+}
+
+.help_shark span{
+  padding: 2px 8px;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -5px;
 }
 
 
