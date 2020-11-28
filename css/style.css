@@ -76,6 +76,9 @@ ul{
 .mt_20{
   margin-top: 20px;
 }
+.mt_30{
+  margin-top: 30px;
+}
 .mt_50{
   margin-top: 50px;
 }
@@ -103,6 +106,10 @@ ul{
 }
 .pa_20{
   padding: 20px;
+}
+
+.ptb_30{
+  padding: 30px 0;
 }
 
 .btn_clear{
@@ -154,6 +161,8 @@ header .ms_navbar ul li a{
 header .ms_jumbotron{
   margin-top: 90px;
   background-image: url('../img/bg-home-1.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 header .ms_jumbotron .ms_jumbo_text{
@@ -375,8 +384,34 @@ section.loghi a{
   color: #031C4E;
 }
 
+/* FOOTER */
+footer{
+  background-color: #031C4E;
+  color: lightgrey;
+}
 
+footer img{
+  width: 50px;
+}
 
+footer h2{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer a{
+  color: lightgrey;
+}
+
+footer a i{
+ font-size: 20px;
+ padding-right: 5px;
+}
+
+footer ul{
+  padding: 0;
+}
 
 
 
