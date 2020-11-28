@@ -413,8 +413,36 @@ footer ul{
   padding: 0;
 }
 
+/* HELP */
+.help{
+  position: fixed;
+  bottom:30px;
+  right: 30px;
+}
+.help_text{
+  width: 400px;
+  background-color: white;
+  padding: 10px 25px 10px 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.help_text p{
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0;
+}
 
+.help_shark{
+  width: 70px;
+  background-color: #006AFF;
+  border-radius: 15px;
+  display: inline-block;
+}
 
+.help_shark img{
+  width: 100%;
+  padding: 10px 0;
+}
 
 
 
